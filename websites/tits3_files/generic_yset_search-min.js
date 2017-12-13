@@ -1,1 +1,0 @@
-YUI().use("get",function(a){a.Get.load(["https://s.yimg.com/os/ydownloads/ucs-yset-search/prod/js/ucs_yset_search-min.js","https://s.yimg.com/os/ydownloads/ucs-yset-search/prod/css/ucs_yset_search-min.css"],function(b){b&&a.Array.each(b,function(b){a.log("Error loading file: "+b.error)})})});
