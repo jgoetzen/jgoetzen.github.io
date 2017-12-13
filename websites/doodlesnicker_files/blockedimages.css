@@ -1,0 +1,18 @@
+/*!
+ * cache=true
+ * @license Licences are viewable at this URL: http://w.cdn.gaiaonline.com/src/=/e143bb5df5304ae98988a03a4dabca2e-1446-41/src/css/widgets/blockedimages.css
+ */
+
+
+/*! /src/css/widgets/blockedimages.css */
+    .bbcode-swap-blocked-image,
+    .bbcode-swap-blocked-youtube,
+    .bbcode-unblocked-youtube,
+    .bbcode-swapping-image,
+    .bbcode-swap-image-errored{background:none no-repeat 50% 50%;height:32px;width:32px;}
+
+    .bbcode-swap-blocked-image{background-image:url(http://s.cdn.gaiaonline.com/images/ugc/blocked/icon_police.png);cursor:help;}
+    .bbcode-swap-blocked-youtube{background-image:url(http://s.cdn.gaiaonline.com/images/ugc/blocked/icon_police.png);cursor:help;}
+    .bbcode-unblocked-youtube,
+    .bbcode-swapping-image{background-image:url(http://s.cdn.gaiaonline.com/images/template/dropdown/ajax-loader.gif);}
+    .bbcode-swap-image-errored{background-image:url(http://s.cdn.gaiaonline.com/images/ugc/blocked/icon_redx.png);}
