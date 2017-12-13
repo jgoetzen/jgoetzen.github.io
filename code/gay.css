@@ -1,0 +1,327 @@
+@media screen and (min-width: 600px) {
+#main{
+  /*hide it + display message about getting on comp.
+
+  main: fixed width
+  */
+}
+
+body{
+/*  background-color: #ffffff; */
+  background-image: url("background.gif");
+  background-repeat: repeat;
+/*  background-attachment: fixed;
+  background-position: center; */
+  background-size: 25%;
+}
+
+#title{
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#main{
+  display: block;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  min-height: 200px;
+  /* background-color: #ffffff;*/
+}
+
+/*div#main img{
+  max-width: 70%;
+  height: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+div#modals img{
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#main p{
+  display: table;
+  color: #494748;
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+
+div#main a{
+  text-decoration: none;
+  color: #f2992e;
+}
+
+div#main a:hover{
+  color: #fad6ab;
+  cursor: pointer;
+}
+
+.modalDialog {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 1;
+        opacity:0;
+        -webkit-transition: opacity 500ms ease-in;
+        -moz-transition: opacity 500ms ease-in;
+        transition: opacity 500ms ease-in;
+        pointer-events: none;
+        -webkit-overflow-scrolling:touch;
+        /*possible to open an iframe here?*/
+    }
+
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+      background-color: #fefefe;
+      margin: 5% auto 5%; /* 15% from the top and centered */
+      padding: 20px;
+      border: 4px solid #c1bfc0;
+      border-top: 30px solid #0153e7;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+    /*  height: 80%; */
+      width: 70%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal-title{
+    font-family: 'Monaco';
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: -45px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #001394;
+  }
+
+
+    .close {
+        float: right;
+        margin-top: -45px;
+        height: 21px;
+        width: 21px;
+    }
+
+
+    .modalCustom {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 2;
+            opacity:0;
+            -webkit-transition: opacity 500ms ease-in;
+            -moz-transition: opacity 500ms ease-in;
+            transition: opacity 500ms ease-in;
+            pointer-events: none;
+            -webkit-overflow-scrolling:touch;
+        }
+
+        .modalCustom:target {
+            opacity:1;
+            pointer-events: auto;
+        }
+
+        .modalCustom > div {
+          background-color: rgba(0,0,0,0);
+          margin: 5% auto 5%; /* 15% from the top and centered */
+          padding: 0px;
+        /*  height: 80%; */
+          width: 50%; /* Could be more or less, depending on screen size */
+      }
+
+      #msntitle{
+        background: linear-gradient(to bottom, #3bb2ea, #58bded);
+        padding: 0px 0px 0px 10px;
+      }
+
+      .customtitle{
+        display:inline;
+          padding: 0px;
+          margin: 0px 0px 10px 10px;
+          font-family: 'Arial';
+          font-weight: 100;
+          font-size: 14px;
+          letter-spacing: 1px;
+          color: #eee;
+          text-shadow: 1px 1px #001394;
+      }
+
+      .closetext{
+        float: right;
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-right: 5px;
+        color: #fff;
+      }
+
+      .closetext:hover{
+        color: #aaa;
+      }
+
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: 4%;
+    margin-right: -2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clickable{
+  padding: 10px;
+}
+
+.a{
+  display: inline-flex;
+  align-self: center;
+  flex: 1;
+  max-width: 100%;
+    height: auto;
+}
+.b{
+  display: inline-flex;
+align-self: flex-end;
+  flex: 2;
+  max-width: 100%;
+    height: auto;
+}
+.c{
+  display: inline-flex;
+  align-self: stretch;
+    flex: 3;
+    max-width: 100%;
+      height: auto;
+}
+.d{
+  display: inline-flex;
+align-self: flex-start;
+  flex: 1;
+  max-width: 100%;
+    height: auto;
+}
+
+#marlena{
+  width:70%;
+  height: auto;
+}
+
+#girlswantyou{
+max-width: 100%;
+height: auto;
+padding-top: 60px;
+}
+
+#phl{
+  padding-left: 30px;
+}
+
+#anime{
+  max-width: 100%;
+    height: auto;
+}
+
+#gaydar{
+  max-width: 70%;
+  height: auto;
+}
+
+#totallyspies{
+  max-width: 90%;
+  height: auto;
+  margin-top: 30px;
+}
+
+#music{
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+
+#music2{
+  max-width: 60%;
+  height: auto;
+}
+
+#gaia{
+  max-width: 60%;
+  height: auto;
+}
+
+#charice{
+  max-width: 60%;
+    height: auto;
+}
+
+#msn{
+  padding-left: 50px;
+}
+
+#eyes{
+  padding: 60px;
+  -webkit-filter: drop-shadow(8px 8px 0px #000);
+  filter: drop-shadow(8px 8px 0px #000);
+
+}
+
+#tits3{
+  max-width: 80%;
+  height: auto;
+}
+
+.shadow{
+  -webkit-filter: drop-shadow(20px 20px 10px #000);
+  filter: drop-shadow(20px 20px 10px #000);
+}
+
+.break{
+  width: 110%;
+  margin-left: -5%;
+  min-height: 100%;
+  background-image: url("bg2.gif");
+/*  background-size: cover;*/
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.pairing{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
